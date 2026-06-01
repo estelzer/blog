@@ -1,0 +1,19 @@
+title: Estelzer Ramello
+description: "Engenheiro de Computação · Cientista de Dados · Escritor · Artista"
+baseurl: "/blog"
+url: "https://estelzer.github.io"
+author:
+  name: Estelzer Ramello
+  github: estelzer
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
