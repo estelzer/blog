@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article>
+  <header class="post-header">
+    <div class="container--post">
+      <div class="post-meta">
+        <a href="{{ '/categorias/' | append: page.categories[0] | relative_url }}" class="cat-badge cat-badge--{{ page.categories[0] }}">
+          {% if page.categories[0] == 'tecnologia' %}Tecnologia &amp; Dev{% else %}Literatura &amp; Artes{% endif %}
+        </a>
+        <time class="post-date">{{ page.date | date: "%d %b %Y" }}</time>
+      </div>
+      <h1 class="post-header__title">{{ page.title }}</h1>
+      {% if page.excerpt %}<p class="post-header__excerpt">{{ page.excerpt | strip_html }}</p>{% endif %}
+    </div>
+  </header>
+  <div class="post-content container--post">
+    {{ content }}
+  </div>
+</article>
