@@ -1,0 +1,10 @@
+<header class="site-header">
+  <nav class="site-nav">
+    <a href="{{ '/' | relative_url }}" class="site-nav__logo">estelzer<span>.</span></a>
+    <div class="site-nav__links">
+      <a href="{{ '/categorias/tecnologia' | relative_url }}" {% if page.categories[0] == 'tecnologia' %}class="active"{% endif %}>💻 Tecnologia</a>
+      <a href="{{ '/categorias/literatura-artes' | relative_url }}" {% if page.categories[0] == 'literatura-artes' %}class="active"{% endif %}>🎨 Literatura &amp; Artes</a>
+      <a href="{{ '/sobre' | relative_url }}" {% if page.url contains 'sobre' %}class="active"{% endif %}>Sobre</a>
+    </div>
+  </nav>
+</header>
