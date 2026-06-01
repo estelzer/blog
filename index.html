@@ -1,0 +1,61 @@
+---
+layout: default
+title: Home
+---
+<div class="hero">
+  <div class="container">
+    <div class="hero__avatar">ER</div>
+    <h1 class="hero__name">Estelzer Ramello</h1>
+    <p class="hero__tagline">Explorando onde código, dados, palavras e arte se encontram.</p>
+    <div class="hero__badges">
+      <span class="badge badge--accent">⚙️ Engenheiro de Computação</span>
+      <span class="badge badge--tech">📊 Cientista de Dados</span>
+      <span class="badge badge--arts">✍️ Escritor</span>
+      <span class="badge badge--gray">🎨 Desenhista</span>
+      <span class="badge badge--gray">💡 Curioso</span>
+    </div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <p class="section__title">Categorias</p>
+    <div class="categories-grid">
+      <a href="{{ '/categorias/tecnologia' | relative_url }}" class="category-card category-card--tech">
+        <div class="category-card__icon">💻</div>
+        <div class="category-card__name">Tecnologia &amp; Dev</div>
+        <p class="category-card__desc">Programação, ferramentas, ciência de dados, experimentos e projetos de hobbie.</p>
+        <span class="category-card__count">{% assign tp = site.posts | where: "categories", "tecnologia" %}{{ tp.size }} post{% if tp.size != 1 %}s{% endif %}</span>
+      </a>
+      <a href="{{ '/categorias/literatura-artes' | relative_url }}" class="category-card category-card--arts">
+        <div class="category-card__icon">🎨</div>
+        <div class="category-card__name">Literatura &amp; Artes Visuais</div>
+        <p class="category-card__desc">Textos, ensaios, ilustrações e reflexões sobre criação e estética.</p>
+        <span class="category-card__count">{% assign ap = site.posts | where: "categories", "literatura-artes" %}{{ ap.size }} post{% if ap.size != 1 %}s{% endif %}</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="section__title">Posts Recentes</p>
+    <div class="post-list">
+      {% for post in site.posts limit:6 %}
+      <a href="{{ post.url | relative_url }}" class="post-item">
+        <div class="post-item__meta">
+          <span class="cat-badge cat-badge--{{ post.categories[0] }}">
+            {% if post.categories[0] == 'tecnologia' %}Tecnologia{% else %}Literatura &amp; Artes{% endif %}
+          </span>
+          <time class="post-date">{{ post.date | date: "%d %b %Y" }}</time>
+        </div>
+        <div class="post-item__title">{{ post.title }}</div>
+        {% if post.excerpt %}<p class="post-item__excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>{% endif %}
+      </a>
+      {% endfor %}
+      {% if site.posts.size == 0 %}
+      <p style="color:var(--muted);padding:32px 0">Primeiros posts chegando em breve!</p>
+      {% endif %}
+    </div>
+  </div>
+</section>
