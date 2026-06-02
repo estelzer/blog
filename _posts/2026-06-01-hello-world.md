@@ -1,23 +1,23 @@
 ---
 layout: post
-title: "Hello, World! — Abrindo o blog"
+title: "Programar por necessidade"
 date: 2026-06-01
 categories: [tecnologia]
-excerpt: "Todo blog de programador começa com um Hello World. Este não é diferente."
+excerpt: "Não programo para construir sistemas. Programo quando algo me incomoda o suficiente para que valha a pena resolver."
 ---
 
-Todo blog de programador que se preze começa com um `Hello, World!`. Não por tradição, mas porque é impossível resistir.
+Não programo para construir sistemas. Não tenho projetos em andamento, roadmaps ou metas de lançamento. Programo quando algo me incomoda o suficiente para que valha a pena resolver — e paro quando o problema some.
 
-## Por que um blog?
+É uma relação bastante pragmática com o código. E, curiosamente, acho que ela produz as soluções mais honestas que já escrevi.
 
-Tenho o hábito de escrever notas para mim mesmo — fragmentos de raciocínio sobre problemas que resolvi, ferramentas que descobri, ideias que não me largam. Em algum momento, pareceu natural organizar isso em um lugar só.
+## O problema como ponto de partida
 
-## O que esperar aqui
+Quando o gatilho é a necessidade, não há espaço para over-engineering. Você não adiciona camadas porque "pode ser útil depois". Você escreve exatamente o que resolve o que está na sua frente e fecha o editor.
 
-Posts sobre programação, ciência de dados, ferramentas e projetos de hobbie. Sem periodicidade prometida, sem audiência-alvo. Apenas curiosidade em forma de texto.
+Isso vai contra quase tudo que se ensina sobre boas práticas. Mas para quem programa nas horas vagas, sem prazo e sem usuários além de si mesmo, é libertador.
 
-```python
-print("Olá, mundo!")
-```
+## O que aparece aqui
 
-Simples assim.
+Vai aparecer nesse espaço o que me interessar no momento: um script que automatizou algo chato, uma ferramenta que descobri, um problema que levou mais tempo do que deveria e o que aprendi resolvendo.
+
+Sem pauta. Sem frequência prometida. Só o que valer o registro.
