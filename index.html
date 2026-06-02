@@ -6,10 +6,9 @@ title: Home
   <div class="container">
     <div class="hero__avatar">ER</div>
     <h1 class="hero__name">Estelzer Ramello</h1>
-    <p class="hero__tagline">Explorando onde código, dados, palavras e arte se encontram.</p>
+    <p class="hero__tagline">Onde código, palavras e arte se encontram.</p>
     <div class="hero__badges">
       <span class="badge badge--accent">⚙️ Engenheiro de Computação</span>
-      <span class="badge badge--tech">📊 Cientista de Dados</span>
       <span class="badge badge--arts">✍️ Escritor</span>
       <span class="badge badge--gray">🎨 Desenhista</span>
       <span class="badge badge--gray">💡 Curioso</span>
@@ -24,13 +23,13 @@ title: Home
       <a href="{{ '/categorias/tecnologia' | relative_url }}" class="category-card category-card--tech">
         <div class="category-card__icon">💻</div>
         <div class="category-card__name">Tecnologia &amp; Dev</div>
-        <p class="category-card__desc">Programação, ferramentas, ciência de dados, experimentos e projetos de hobbie.</p>
+        <p class="category-card__desc">Programação, ferramentas, experimentos e projetos de hobbie.</p>
         <span class="category-card__count">{% assign tp = site.posts | where: "categories", "tecnologia" %}{{ tp.size }} post{% if tp.size != 1 %}s{% endif %}</span>
       </a>
       <a href="{{ '/categorias/literatura-artes' | relative_url }}" class="category-card category-card--arts">
         <div class="category-card__icon">🎨</div>
         <div class="category-card__name">Literatura &amp; Artes Visuais</div>
-        <p class="category-card__desc">Textos, ensaios, ilustrações e reflexões sobre criação e estética.</p>
+        <p class="category-card__desc">Textos, reflexões e criações sobre linguagem e estética.</p>
         <span class="category-card__count">{% assign ap = site.posts | where: "categories", "literatura-artes" %}{{ ap.size }} post{% if ap.size != 1 %}s{% endif %}</span>
       </a>
     </div>
