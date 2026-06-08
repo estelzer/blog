@@ -3,18 +3,18 @@ layout: post
 title: "Programar por necessidade"
 date: 2026-06-01
 categories: [tecnologia]
-excerpt: "Não programo para construir sistemas. Programo quando algo me incomoda o suficiente para que valha a pena resolver."
+excerpt: "Não programo para simplesmente construir sistemas. Programo quando algo me incomoda o suficiente para que valha a pena resolver."
 ---
 
-Não programo para construir sistemas. Não tenho projetos em andamento, roadmaps ou metas de lançamento. Programo quando algo me incomoda o suficiente para que valha a pena resolver — e paro quando o problema some.
+Não programo para construir sistemas. Não tenho grandes projetos em andamento, roadmaps ou metas de lançamento. Programo quando algo me incomoda o suficiente para que valha a pena resolver, e paro quando o problema some.
 
-É uma relação bastante pragmática com o código. E, curiosamente, acho que ela produz as soluções mais honestas que já escrevi.
+É uma relação bastante pragmática com o código. E, curiosamente, acho que ela produz as soluções bem honestas.
 
 ## O problema como ponto de partida
 
-Quando o gatilho é a necessidade, não há espaço para over-engineering. Você não adiciona camadas porque "pode ser útil depois". Você escreve exatamente o que resolve o que está na sua frente e fecha o editor.
+Quando o gatilho é a necessidade, não há espaço para over-engineering. Você não adiciona camadas porque "pode ser útil depois". Escrevo exatamente o que resolve o que está na minha frente e fecho o editor.
 
-Isso vai contra quase tudo que se ensina sobre boas práticas. Mas para quem programa nas horas vagas, sem prazo e sem usuários além de si mesmo, é libertador.
+Isso vai contra quase tudo que se ensina sobre boas práticas. Mas para quem programa nas horas vagas, sem prazo e sem usuários além de si mesmo (na maioria do casos), é libertador.
 
 ## O que aparece aqui
 
